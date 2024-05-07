@@ -1,0 +1,42 @@
+{
+    "title": [
+        {
+          "value": "agenda 2"
+      }
+    ],
+    "field_direccion_de_recogida": [
+        {
+            "value": "kr78"
+        }
+    ],
+    "field_latitud": [
+        {
+            "value": "333"
+        }
+    ],
+    "field_longitud": [
+        {
+            "value": "23123"
+        }
+    ],
+    "field_nombres_y_apellidos": [
+        {
+            "value": "fabian prueba"
+        }
+    ],
+    "field_oficina": [
+        {
+            "value": "122"
+        }
+    ],
+    "field_url_notificacion": [
+        {
+            "value": "https://google.com"
+        }
+    ],
+    "type": [
+        {
+          "target_id": "paquetes"
+      }
+    ]
+  }

@@ -1,0 +1,7 @@
+custom_form_conductor.form:
+  path: '/formulario-conductor'
+  defaults:
+    _form: '\Drupal\custom_form_conductor\Form\CustomFormConductor'
+    _title: 'Crear Conductor'
+  requirements:
+    _permission: 'access content'

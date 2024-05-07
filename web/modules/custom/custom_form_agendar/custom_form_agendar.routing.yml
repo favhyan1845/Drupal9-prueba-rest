@@ -1,0 +1,7 @@
+custom_form_agendar.form:
+  path: '/formulario-agenda'
+  defaults:
+    _form: '\Drupal\custom_form_agendar\Form\CustomFormAgenda'
+    _title: 'Consulta aqui tu paquete'
+  requirements:
+    _permission: 'access content'

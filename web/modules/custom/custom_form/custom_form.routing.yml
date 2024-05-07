@@ -1,0 +1,7 @@
+custom_form.form:
+  path: '/formulario-recogida'
+  defaults:
+    _form: '\Drupal\custom_form\Form\CustomForm'
+    _title: 'Paquete a recoger'
+  requirements:
+    _permission: 'access content'

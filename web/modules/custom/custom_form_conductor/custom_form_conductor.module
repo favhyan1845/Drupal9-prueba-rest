@@ -1,0 +1,16 @@
+<?php
+/**
+ * Implements hook_help().
+ */
+use Drupal\Core\Link;
+use Drupal\Core\Routing\RouteMatchInterface;
+function custom_form_conductor_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    case 'help.page.custom_form_conductor':
+      $output = '<h3>' . t('About of WF Export') . '</h3>';
+      $output .= '<p>' . t('The WF-Export module provides a mechanism provides a mechanism for exporting the configuration of the:') . '</p>';
+      $output .= '<p>' . t('Content Types,Paragrafs,Media Types') . '</p>';
+      $output .= '<p>' . t('The exported files are located in the following directory: /web/modules/custom/namemodule/data') . '</p>';
+    return $output;
+  }
+}
